@@ -1,0 +1,30 @@
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# Runtime data — receipt images and extracted business data are private
+**/invoices/
+**/processed/
+**/failed/
+**/output/
+**/debug/
+**/logs/
+*.xlsx
+*.log
+
+# Editors / tools
+.vscode/
+.idea/
+.claude/
+
+# OS
+Thumbs.db
+.DS_Store
